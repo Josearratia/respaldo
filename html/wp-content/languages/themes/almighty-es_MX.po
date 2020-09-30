@@ -1,0 +1,497 @@
+# Translation of Themes - Almighty in Spanish (Mexico)
+# This file is distributed under the same license as the Themes - Almighty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-03 13:57:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_MX\n"
+"Project-Id-Version: Themes - Almighty\n"
+
+#: inc/customizer/customizer.php:212
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un pensamiento en &ldquo;%1$s&rdquo;"
+
+#: footer.php:80
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s."
+
+#: inc/icon-functions.php:42
+msgid "Please define an SVG icon filename."
+msgstr "Por favor, define un nombre de archivo de iconos SVG."
+
+#: inc/icon-functions.php:37
+msgid "Please define default parameters in the form of an array."
+msgstr "Por favor, define los parámetros por defecto en forma de array."
+
+#: inc/customizer/customizer.php:211
+msgid "View Pro Version"
+msgstr "Ver la versión Pro"
+
+#: inc/customizer/featured-blog.php:63
+msgid "Select Category for Featured Blog"
+msgstr "Selecciona una categoría para el blog destacado"
+
+#: inc/customizer/featured-blog.php:46
+msgid "Featured Blog Title"
+msgstr "Título del blog destacado"
+
+#: inc/customizer/featured-blog.php:30
+msgid "Enable Featured Blog"
+msgstr "Activar el blog destacado"
+
+#: inc/customizer/featured-blog.php:13
+msgid "Footer Featured Blog"
+msgstr "Pie de página del blog destacado"
+
+#: inc/customizer/theme-option.php:235
+msgid "Secondary Font"
+msgstr "Fuente secundaria"
+
+#: inc/customizer/theme-option.php:217
+msgid "Primary Font"
+msgstr "Fuente principal"
+
+#: inc/customizer/theme-option.php:201
+msgid "Fonts & Typography"
+msgstr "Fuentes y tipografía"
+
+#: inc/customizer/theme-option.php:191
+msgid "Primary Color"
+msgstr "Color principal"
+
+#: inc/customizer/theme-option.php:175
+msgid "Color Options"
+msgstr "Opciones de color"
+
+#: inc/customizer/theme-option.php:163
+msgid "Footer Copyright Text"
+msgstr "Texto de copyright del pie de página"
+
+#: inc/customizer/theme-option.php:146
+msgid "Footer Options"
+msgstr "Opciones del pie de página"
+
+#: inc/customizer/theme-option.php:136
+msgid "Numeric"
+msgstr "Numérico"
+
+#: inc/customizer/theme-option.php:132
+msgid "Pagination Type"
+msgstr "Tipo de paginación"
+
+#: inc/customizer/theme-option.php:115
+msgid "Pagination Options"
+msgstr "Opciones de paginación"
+
+#: inc/customizer/theme-option.php:102
+msgid "Archive Excerpt Length"
+msgstr "Longitud del extracto en archivos"
+
+#: inc/customizer/theme-option.php:68
+msgid "No Sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/customizer/theme-option.php:66
+msgid "Left Sidebar"
+msgstr "Barra lateral izquierda"
+
+#: inc/customizer/theme-option.php:67
+msgid "Right Sidebar"
+msgstr "Barra lateral derecha"
+
+#: inc/customizer/theme-option.php:63
+msgid "Sidebar Options"
+msgstr "Opciones de barra lateral"
+
+#: inc/customizer/theme-option.php:36
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: inc/customizer/theme-option.php:28
+msgid "Light-scheme"
+msgstr "Esquema claro"
+
+#: inc/customizer/theme-option.php:27
+msgid "Dark Scheme"
+msgstr "Esquema escuro"
+
+#: inc/customizer/theme-option.php:23
+msgid "Select Header Color Scheme"
+msgstr "Selecciona un esquema de color de cabecera"
+
+#: inc/customizer/slider.php:206
+msgid "Slider Background Color"
+msgstr "Color de fondo del carrusel"
+
+#: inc/customizer/slider.php:189
+msgid "Slider Text Color"
+msgstr "Color de texto del carrusel"
+
+#: inc/customizer/slider.php:172
+msgid "Slider Button Text"
+msgstr "Texto del botón del carrusel"
+
+#: inc/customizer/slider.php:154
+msgid "Select category to be shown on tab "
+msgstr "Selecciona la categoría a mostrar en la pestaña "
+
+#: inc/customizer/slider.php:153
+msgid "Category for slider"
+msgstr "Categoría para el carrusel"
+
+#: inc/customizer/slider.php:133
+msgid "Slider From Page"
+msgstr "Carrusel desde página"
+
+#: inc/customizer/slider.php:117
+msgid "Category"
+msgstr "Categoría"
+
+#: inc/customizer/slider.php:116
+msgid "Page"
+msgstr "Página"
+
+#: inc/customizer/slider.php:112
+msgid "Select Slider From"
+msgstr "Selecciona el contenido a mostrar en el carrusel"
+
+#: inc/customizer/slider.php:93
+msgid "Select no words of slider"
+msgstr "Selecciona el número de palabras del carrusel"
+
+#: inc/customizer/slider.php:76
+msgid "Enable Slider Content"
+msgstr "Activar el contenido del carrusel"
+
+#: inc/customizer/slider.php:59
+msgid "9"
+msgstr "9"
+
+#: inc/customizer/slider.php:58
+msgid "8"
+msgstr "8"
+
+#: inc/customizer/slider.php:57
+msgid "7"
+msgstr "7"
+
+#: inc/customizer/slider.php:56
+msgid "6"
+msgstr "6"
+
+#: inc/customizer/slider.php:55
+msgid "5"
+msgstr "5"
+
+#: inc/customizer/slider.php:54
+msgid "4"
+msgstr "4"
+
+#: inc/customizer/slider.php:53
+msgid "3"
+msgstr "3"
+
+#: inc/customizer/slider.php:52
+msgid "2"
+msgstr "2"
+
+#: inc/customizer/slider.php:51
+msgid "1"
+msgstr "1"
+
+#: inc/customizer/slider.php:47
+msgid "Select no of slider"
+msgstr "Selecciona el número de diapositivas del carrusel"
+
+#: inc/customizer/slider.php:30
+msgid "Enable Slider"
+msgstr "Activar el carrusel"
+
+#: inc/customizer/slider.php:13
+msgid "Slider Options"
+msgstr "Opciones del carrusel"
+
+#: inc/customizer/default.php:53
+msgid "Copyright All rights reserved"
+msgstr "Copyright. Todos los derechos reservados"
+
+#: inc/customizer/default.php:49
+msgid "Continue Reading"
+msgstr "Seguir leyendo"
+
+#: inc/customizer/default.php:42
+msgid "View more in Instagram"
+msgstr "Ver más en Instagram"
+
+#: inc/customizer/default.php:41
+msgid "Check Our Instagram"
+msgstr "Mira nuestro Instagram"
+
+#: inc/customizer/default.php:29
+msgid "Learn More"
+msgstr "Aprende más"
+
+#: inc/customizer/default.php:23
+msgid "You May Also Like"
+msgstr "También te puede interesar"
+
+#: inc/recent-post-widget.php:94
+msgid "Content Length (Words):"
+msgstr "Longitud del contenido (palabras):"
+
+#: inc/recent-post-widget.php:88
+msgid "No of Posts:"
+msgstr "Nº de entradas:"
+
+#: inc/recent-post-widget.php:81
+msgid "All Categories"
+msgstr "Todas las categorías"
+
+#: inc/recent-post-widget.php:72
+msgid "Category:"
+msgstr "Categoría:"
+
+#: inc/recent-post-widget.php:15
+msgid "Displays recent posts"
+msgstr "Muestra lás últimas entradas"
+
+#: inc/recent-post-widget.php:14
+msgid "Almighty Recent Posts"
+msgstr "Almighty - Entradas recientes"
+
+#: inc/author-widget.php:189
+msgid "Instagram URL:"
+msgstr "URL de Instagram:"
+
+#: inc/author-widget.php:181
+msgid "Twitter URL:"
+msgstr "URL de Twitter:"
+
+#: inc/author-widget.php:173
+msgid "Facebook URL:"
+msgstr "URL de Facebook:"
+
+#: inc/author-widget.php:149
+msgid "Author Image:"
+msgstr "Imagen del autor:"
+
+#: inc/author-widget.php:139 inc/author-widget.php:163
+msgctxt "Remove"
+msgid "X"
+msgstr "X"
+
+#: inc/author-widget.php:128 inc/author-widget.php:152
+msgid "Choose Image"
+msgstr "Elegir imagen"
+
+#: inc/author-widget.php:128 inc/author-widget.php:152
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#: inc/author-widget.php:128 inc/author-widget.php:152
+msgid "Upload"
+msgstr "Subir"
+
+#: inc/author-widget.php:125
+msgid "Author Background Image:"
+msgstr "Imagen de fondo del autor:"
+
+#: inc/author-widget.php:118
+msgid "Short Description:"
+msgstr "Descripción breve:"
+
+#: inc/author-widget.php:110
+msgid "Author Name:"
+msgstr "Nombre del autor:"
+
+#: inc/author-widget.php:15
+msgid "Displays author short info."
+msgstr "Muestra información del autor."
+
+#: inc/author-widget.php:14
+msgid "Almighty Author Info"
+msgstr "Almighty - Información del Autor"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:77
+msgid "Tagged In %1$s"
+msgstr "Etiquetado: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:74
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:70
+msgid "Posted In %1$s"
+msgstr "Publicado en %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:67
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post author.
+#: inc/template-tags.php:49
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:32
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado en %s"
+
+#: inc/custom-hooks.php:330
+msgid "Disable Featured Image on single page"
+msgstr "Desactivar imagen destacada en la página individual"
+
+#: inc/author-widget.php:102 inc/recent-post-widget.php:65
+#: inc/social-widget.php:70
+msgid "Title:"
+msgstr "Titulo:"
+
+#: inc/social-widget.php:48
+msgid "Social menu is not set. You need to create menu and assign it to Social Menu on Menu Settings."
+msgstr "El menú social no está configurado. Necesitas crear el menú y asignarlo al Menú Social en los ajustes de menús."
+
+#: inc/social-widget.php:15
+msgid "Displays social menu if you have set it(social menu)"
+msgstr "Mostrar el menú social si lo has establecido (menú social)"
+
+#: inc/social-widget.php:14
+msgid "Almighty Social Menu"
+msgstr "Almighty - Menú social"
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no encontramos lo que estás buscando. Puede que una búsqueda te ayude."
+
+#: template-parts/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero nada coincide con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:62
+msgid "%s <i class=\"ion-ios-arrow-right read-more-right\"></i>"
+msgstr "%s <i class=\"ion-ios-arrow-right read-more-right\"></i>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:40
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-page.php:27 template-parts/content.php:67
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: header.php:76 footer.php:51
+msgid "Footer Social Links Menu"
+msgstr "Menú de enlaces sociales del pie de página"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quizá podrías intentar una búsqueda o usar uno de los enlaces que se muestran a continuación?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se ha podido encontrar esa página."
+
+#: functions.php:178
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:139
+msgid "Footer Column 3"
+msgstr "Columna 3 del pie de página"
+
+#: functions.php:130
+msgid "Footer Column 2"
+msgstr "Columna 2 del pie de página"
+
+#: functions.php:123 functions.php:132 functions.php:141
+msgid "Displays items on footer section."
+msgstr "Mostrar elementos en la sección del pie de página."
+
+#: functions.php:121
+msgid "Footer Column 1"
+msgstr "Columna 1 del pie de página"
+
+#: functions.php:114
+msgid "Add widgets here."
+msgstr "Añade widgets aquí."
+
+#: functions.php:112
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:50
+msgid "Social Menu"
+msgstr "Menú social"
+
+#: header.php:53 functions.php:49
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentario en \"%2$s\""
+msgstr[1] "%1$s comentarios en \"%2$s\""
+
+#: inc/customizer/theme-option.php:85
+msgid "Button Text for Read More"
+msgstr "Texto del botón \"Leer más\""
+
+#: inc/customizer/slider.php:48
+msgid "If you are using selection \"from page\" option please refresh to get actual no of page"
+msgstr "Si estás utilizando la opción \"desde la página\", por favor, actualiza para obtener el número real de la página"
+
+#: inc/customizer/theme-option.php:45
+msgid "Layout Management"
+msgstr "Gestión del layout"
+
+#: inc/custom-hooks.php:299
+msgid "Layout Options"
+msgstr "Opciones del layout"
+
+#: inc/customizer/theme-option.php:137
+msgid "Default (Older / Newer Post)"
+msgstr "Predeterminado (antigua / nueva entrada)"

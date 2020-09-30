@@ -1,0 +1,40 @@
+2020-08-10T16:32:58+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 81920 bytes) en /var/www/html/wp-includes/class-wp-hook.php en la línea 287
+
+2020-08-10T16:33:15+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) en /var/www/html/wp-includes/functions.php en la línea 594
+
+2020-08-10T16:40:33+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) en /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductTopRated.php en la línea 0
+
+2020-08-10T16:41:28+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:2
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(2): PDO->query('SELECT w0_.name...')
+#1 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(2): MailPoetVendor\Doctrine\DBAL\Driver\PDOConnection->query('SELECT w0_.name...')
+#2 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Exec/SingleSelectExecutor.php(2): MailPoetVendor\Doctrine\DBAL\Connection->executeQuery('SELECT w0_.name...', Array, Array, NULL)
+#3 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query.php(2): MailPoetVendor\Doctrine\ORM\Query\Exec\SingleSelectExecutor->execute(Object(MailPoet\Doctrine\SerializableConnection), Array,  en /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php en la línea 2
+
+2020-08-10T16:41:28+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:2
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(2): PDO->query('SELECT w0_.name...')
+#1 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(2): MailPoetVendor\Doctrine\DBAL\Driver\PDOConnection->query('SELECT w0_.name...')
+#2 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Exec/SingleSelectExecutor.php(2): MailPoetVendor\Doctrine\DBAL\Connection->executeQuery('SELECT w0_.name...', Array, Array, NULL)
+#3 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query.php(2): MailPoetVendor\Doctrine\ORM\Query\Exec\SingleSelectExecutor->execute(Object(MailPoet\Doctrine\SerializableConnection), Array,  en /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php en la línea 2
+
+2020-08-10T16:57:42+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 20480 bytes) en /var/www/html/wp-includes/functions.php en la línea 594
+
+2020-08-10T16:57:46+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 20480 bytes) en /var/www/html/wp-content/plugins/the-events-calendar/common/src/Tribe/Error.php en la línea 181
+
+2020-08-10T16:57:46+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) en /var/www/html/wp-includes/pomo/translations.php en la línea 100
+
+2020-08-10T16:57:46+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 20480 bytes) en /var/www/html/wp-includes/rest-api/class-wp-rest-server.php en la línea 781
+
+2020-08-10T16:58:15+00:00 CRITICAL Out of memory (allocated 25165824) (tried to allocate 20480 bytes) en /var/www/html/wp-includes/functions.php en la línea 594
+
+2020-08-10T17:00:21+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:2
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(2): PDO->query('SELECT t0.name ...')
+#1 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(2): MailPoetVendor\Doctrine\DBAL\Driver\PDOConnection->query('SELECT t0.name ...')
+#2 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php(2): MailPoetVendor\Doctrine\DBAL\Connection->executeQuery('SELECT t0.name ...', Array, Array)
+#3 /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php(2): MailPoetVendor\Doctrine\ORM\Persisters\Entity\BasicEntityPersister->loadAll(Array, NULL, NULL, NULL)
+#4 /var/www/h en /var/www/html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php en la línea 2
+
+2020-08-10T17:13:01+00:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 507904 bytes) en /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/AssetDataRegistry.php en la línea 233
+

@@ -1,0 +1,4 @@
+2020-08-21T15:16:05+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) en /var/www/html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php en la línea 671
+
+2020-08-21T15:16:13+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 122880 bytes) en /var/www/html/wp-content/plugins/google-site-kit/third-party/guzzlehttp/psr7/src/functions.php en la línea 74
+

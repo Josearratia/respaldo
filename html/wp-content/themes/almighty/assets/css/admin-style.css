@@ -1,0 +1,85 @@
+body #customize-controls .control-section-upsell .accordion-section-title:hover,
+body #customize-controls .control-section-upsell .accordion-section-title:focus {
+    background-color: #fff;
+}
+
+body .control-section-upsell .accordion-section-title .button {
+    margin-top: -4px;
+    font-weight: 700;
+    margin-left: 8px;
+    border-color: #009688;
+    background-color: #009688;
+    color: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+body .control-section-upsell .accordion-section-title .button:hover {
+    background-color: #00BCD4;
+}
+
+body #accordion-section-theme_upsell {
+    display: block !important;
+}
+
+body #accordion-section-theme_upsell h3 {
+    background: #ff6c29 !important;
+    background: linear-gradient(141deg,#ff6c29,#d21b46,#7a1ba6) !important;
+    color: #fff !important;
+    border-left: 0 !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-clip-path: polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,calc(100% - 10px) 100%,0 100%);
+    clip-path: polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,calc(100% - 10px) 100%,0 100%);
+}
+
+/*Toggle Checkbox*/
+.almighty-opt-switch .almighty-checkbox-label {
+    display: inline-block;
+    position: relative;
+    width: 42px;
+    height: 22px;
+    border-radius: 100px;
+    background: #DCDFE6;
+    border: 1px solid #DCDFE6;
+    overflow: hidden;
+    -webkit-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    -moz-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+}
+.almighty-opt-switch .almighty-checkbox-label:before {
+    content: "";
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    -webkit-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    -moz-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.almighty-opt-switch input[type="checkbox"]:checked + .almighty-checkbox-label {
+    background: #F44336;
+    border-color: #F44336;
+}
+
+.almighty-opt-switch input[type="checkbox"]:checked + .almighty-checkbox-label:before {
+    left: calc(100% - 18px);
+}
+
+.almighty-opt-switch input[type="checkbox"] {
+    display: none;
+}
+
+.almighty-opt-switch .almighty-label-text{
+    float: right;
+}
